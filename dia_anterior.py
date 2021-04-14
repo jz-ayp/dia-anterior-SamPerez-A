@@ -22,9 +22,9 @@ if mes in (1, 3, 5, 7, 8, 10, 12):
  dias_mes = 30
 elif mes == 2:
  if bisiesto:
- dias_mes =29
+  dias_mes =29
  else:
- dias_mes =28
+  dias_mes =28
 else :
  dias_mes = 31
 if dia > 1:
@@ -32,11 +32,11 @@ if dia > 1:
 else:
  dia = dias_mes
  if mes == 1:
- mes = 12
- anio -= 1
- dia = 31
+  mes = 12
+  anio -= 1
+  dia = 31
  else:
- mes -= 1
+  mes -= 1
 #salidas
 print ("Día: ", dia)
 print ("Mes: ", mes)
