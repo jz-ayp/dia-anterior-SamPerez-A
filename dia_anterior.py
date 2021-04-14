@@ -11,8 +11,7 @@ dia=int(input("Día:"))
 mes=int(input("Mes:"))
 anio=int(input("Año:"))
 bisiesto = False
-## Las lineas de codigo para el año bisiesto están bien solo que me faltó saber acomodar para que
-la salida
+## Las lineas de codigo para el año bisiesto están bien solo que me faltó saber acomodar para que la salida
 #del mes de febrero ejecutara como si tuviera 28 o 29 días.
 #Proceso
 if anio % 400 == 0:
